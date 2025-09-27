@@ -1,0 +1,239 @@
+{
+  "main": {
+    "id": "b8f8f863d34e1e2e",
+    "type": "split",
+    "children": [
+      {
+        "id": "2549761e6fc599bb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ed78ece5bc3369d0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "研究生/应用工程数学/矩阵论/未命名.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "未命名"
+            }
+          },
+          {
+            "id": "308f8202aa4c6e20",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "研究生/应用工程数学/矩阵论/疑问.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "疑问"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "70866ca41bfa2edc",
+    "type": "split",
+    "children": [
+      {
+        "id": "308482182b018ac0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "51abffe9bd097453",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "f912f243bb25b524",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "9ffb30ba901c3698",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 240.5
+  },
+  "right": {
+    "id": "fe0a5703ef35d874",
+    "type": "split",
+    "children": [
+      {
+        "id": "535d9cf2134ffcda",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1986fe22a0413974",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "项目/相关论文/第3周/1.鲁棒强化学习：基础回顾和最新进展/翻译.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-coming-in",
+              "title": "翻译 的反向链接列表"
+            }
+          },
+          {
+            "id": "615d9e822d868087",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "项目/相关论文/第3周/1.鲁棒强化学习：基础回顾和最新进展/翻译.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "翻译 的出链列表"
+            }
+          },
+          {
+            "id": "984d7faa97b487f0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "ae4a6b858a286bcf",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "研究生/应用工程数学/矩阵论/未命名.md",
+                "followCursor": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "未命名 的大纲"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 268.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:创建新数据库": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "obsidian-regex-pipeline:Regex Rulesets": false
+    }
+  },
+  "active": "ed78ece5bc3369d0",
+  "lastOpenFiles": [
+    "未命名.base",
+    "研究生/应用工程数学/矩阵论/未命名.md",
+    "研究生/应用工程数学/矩阵论/疑问.md",
+    "研究生/应用工程数学/矩阵论.md",
+    "研究生/应用工程数学/矩阵论",
+    "研究生/云计算/翻译.md",
+    "研究生/应用工程数学",
+    "研究生/云计算/yyx~53758.tmp",
+    "研究生/云计算/yyx~356E0.tmp",
+    "研究生/云计算/yyx~182E9.tmp",
+    "综述/初稿/综述20250919.docx",
+    "综述/初稿/整合.docx",
+    "综述/初稿/修改1.docx",
+    "综述/初稿/模版综述20250914.docx",
+    "研究生/云计算/img/Pasted image 20250919203548.png",
+    "研究生/云计算/img/Pasted image 20250919203525.png",
+    "研究生/云计算/img/Pasted image 20250919200027.png",
+    "研究生/云计算/img/Pasted image 20250919193937.png",
+    "研究生/云计算/img/Pasted image 20250919185938.png",
+    "项目/记录/deepseek.md",
+    "综述/文献整理/小节.md",
+    "综述/文献整理/MARL豆包整理.md",
+    "综述/文献整理/文献整理.md",
+    "项目/相关论文/第1周/4.强化学习的新挑战：安全和隐私调查/强化学习的新挑战：安全和隐私调查.md",
+    "综述/文献整理/RL豆包整理.md",
+    "疑难/git.md",
+    "项目/相关论文/第2周/4.针对强化学习的自适应奖励中毒攻击/总结.md",
+    "综述/文献整理/img/Pasted image 20250917141751.png",
+    "综述/文献整理/img/Pasted image 20250916192546.png",
+    "综述/文献整理/img/Pasted image 20250916192126.png",
+    "综述/文献整理/img/Pasted image 20250916192044.png",
+    "综述/文献整理/框架整理.md",
+    "待做.md",
+    "教资/背诵.md",
+    "研究生/选课.md",
+    "项目/相关论文/第4周/6/总结.md",
+    "项目/相关论文/第4周/5/总结.md",
+    "项目/相关论文/第4周/4.针对智能体状态对抗扰动的鲁棒均值场参与者-批评强化学习/总结.md",
+    "项目/相关论文/第3周/5.多智能体强化学习的鲁棒性测试：关键智能体的状态扰动/翻译.md",
+    "项目/相关论文/第4周/3.在线多智能体强化学习的高效对抗性攻击/总结.md",
+    "项目/相关论文/第4周/2.多智能体强化学习中的对抗性机器学习攻击与防御/总结.md",
+    "项目/相关论文/第4周/1.在强化学习中实现异常检测/总结.md",
+    "项目/相关论文/第3周/1.鲁棒强化学习：基础回顾和最新进展/翻译1.md",
+    "项目/相关论文/第3周/2.深度强化学习的认证对抗鲁棒性/总结.md",
+    "项目/相关论文/第3周/1.鲁棒强化学习：基础回顾和最新进展/img/Pasted image 20250820151027.png",
+    "项目/2025-8-13修改/指标.canvas",
+    "项目/记录/攻击.canvas",
+    "ML/思维导图/机器学习总览.canvas"
+  ]
+}

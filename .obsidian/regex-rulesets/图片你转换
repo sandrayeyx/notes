@@ -1,0 +1,1 @@
+"\!\[\[Pasted image (.+).png\]\]"->"![](./img/Pasted%20image%20$1.png)"
