@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "研究生/应用工程数学/矩阵论/未命名.md",
+                "file": "应用工程数学/矩阵论/3 矩阵的分解.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "未命名"
+              "title": "3 矩阵的分解"
             }
           },
           {
@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "研究生/应用工程数学/矩阵论/疑问.md",
+                "file": "应用工程数学/矩阵论/例子/矩阵论例子.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "疑问"
+              "title": "矩阵论例子"
             }
           }
         ]
@@ -92,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.5
+    "width": 240.5,
+    "collapsed": true
   },
   "right": {
     "id": "fe0a5703ef35d874",
@@ -108,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "项目/相关论文/第3周/1.鲁棒强化学习：基础回顾和最新进展/翻译.md",
+                "file": "应用工程数学/矩阵论/3 矩阵的分解.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +119,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "翻译 的反向链接列表"
+              "title": "3 矩阵的分解 的反向链接列表"
             }
           },
           {
@@ -127,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "项目/相关论文/第3周/1.鲁棒强化学习：基础回顾和最新进展/翻译.md",
+                "file": "应用工程数学/矩阵论/3 矩阵的分解.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "翻译 的出链列表"
+              "title": "3 矩阵的分解 的出链列表"
             }
           },
           {
@@ -156,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "研究生/应用工程数学/矩阵论/未命名.md",
+                "file": "应用工程数学/矩阵论/3 矩阵的分解.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "未命名 的大纲"
+              "title": "3 矩阵的分解 的大纲"
             }
           }
         ],
@@ -187,6 +188,14 @@
   },
   "active": "ed78ece5bc3369d0",
   "lastOpenFiles": [
+    "应用工程数学/矩阵论/疑问.md",
+    "应用工程数学/矩阵论/3 矩阵的分解.md",
+    "应用工程数学/矩阵论/例子/最小多项式和jordan标准型.md",
+    "应用工程数学/矩阵论/2 Jordan标准型介绍.md",
+    "应用工程数学/矩阵论/例子/矩阵论例子.md",
+    "应用工程数学/矩阵论/0 前言.md",
+    "应用工程数学/矩阵论/1.md",
+    "应用工程数学/矩阵论/例子",
     "未命名.base",
     "研究生/应用工程数学/矩阵论/未命名.md",
     "研究生/应用工程数学/矩阵论/疑问.md",
@@ -200,7 +209,6 @@
     "综述/初稿/综述20250919.docx",
     "综述/初稿/整合.docx",
     "综述/初稿/修改1.docx",
-    "综述/初稿/模版综述20250914.docx",
     "研究生/云计算/img/Pasted image 20250919203548.png",
     "研究生/云计算/img/Pasted image 20250919203525.png",
     "研究生/云计算/img/Pasted image 20250919200027.png",
@@ -225,12 +233,6 @@
     "项目/相关论文/第4周/6/总结.md",
     "项目/相关论文/第4周/5/总结.md",
     "项目/相关论文/第4周/4.针对智能体状态对抗扰动的鲁棒均值场参与者-批评强化学习/总结.md",
-    "项目/相关论文/第3周/5.多智能体强化学习的鲁棒性测试：关键智能体的状态扰动/翻译.md",
-    "项目/相关论文/第4周/3.在线多智能体强化学习的高效对抗性攻击/总结.md",
-    "项目/相关论文/第4周/2.多智能体强化学习中的对抗性机器学习攻击与防御/总结.md",
-    "项目/相关论文/第4周/1.在强化学习中实现异常检测/总结.md",
-    "项目/相关论文/第3周/1.鲁棒强化学习：基础回顾和最新进展/翻译1.md",
-    "项目/相关论文/第3周/2.深度强化学习的认证对抗鲁棒性/总结.md",
     "项目/相关论文/第3周/1.鲁棒强化学习：基础回顾和最新进展/img/Pasted image 20250820151027.png",
     "项目/2025-8-13修改/指标.canvas",
     "项目/记录/攻击.canvas",

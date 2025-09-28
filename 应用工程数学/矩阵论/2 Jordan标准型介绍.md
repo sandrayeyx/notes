@@ -1,47 +1,3 @@
-# 1 线性代数基本知识
-
-## 1.1 向量和向量空间
-
-$\mathbf{R}^n$ ：实数域上n维向量全体组成的集合。
-$\mathbf{C}^n$ ：复数域上n维向量全体所组成的集合。
-
-### 1.1.1 向量的运算
-
-**内积**：设$\alpha= \begin{bmatrix} a_1,\cdots,a_n \end{bmatrix},\beta= \begin{bmatrix} b_1,\cdots,b_n \end{bmatrix}$ 都是n维复向量，记$$\langle\alpha,\beta\rangle=\sum_{i=1}^{n}a_{i}\bar{b}_{i},\tag{1.1-1}$$
-其中$\bar{b}_{i}$表示对$b_i$取共轭。称$\langle\alpha,\beta\rangle$为向量$\alpha$与$\beta$的内积。
-
-内积满足下列运算规则：
-1. 正定性 $\langle \alpha, \alpha \rangle \geq 0$，当且仅当 $\alpha = 0$ 时才有 $\langle \alpha, \alpha \rangle = 0$；
-2. 共轭对称性 $\langle \alpha, \beta \rangle = \overline{\langle \beta, \alpha \rangle}$，这里 $\overline{\langle \beta, \alpha \rangle}$ 表示对 $\langle \beta, \alpha \rangle$ 取共轭；
-3. 关于第一个变元的可加性 $\langle \alpha + \beta, \gamma \rangle = \langle \alpha, \gamma \rangle + \langle \beta, \gamma \rangle$；
-	关于第二个变元的可加性：$\langle\alpha,\beta+Y\rangle=\overline{\langle\beta+Y,\alpha\rangle}=\overline{\langle\beta,\alpha\rangle}+\overline{\langle Y,\alpha\rangle}=\langle\alpha,\beta\rangle+\langle\alpha,Y\rangle.$
-4. 关于第一个变元的齐次性 $\langle k\alpha, \beta \rangle = k\langle \alpha, \beta \rangle$，其中 $k \in \mathbb{C}$
-	关于第二个变元的其次性 $\langle\alpha,k\beta\rangle  =\overline{\langle k\beta,\alpha\rangle}=\overline{k\langle\beta,\alpha\rangle}=\overline{k}\overline{\langle\beta,\alpha\rangle} =\bar{k}\langle\alpha,\beta\rangle\neq k\langle\alpha,\beta\rangle.$
-定义了线性运算和内积的$\mathbf{R}^n$($\mathbf{C}^n$)称为**欧式空间**（**酉空间**），今后仍用$\mathbf{R}^n$($\mathbf{C}^n$)表示。
-
-向量 $\alpha$ 的**长度**定义为 $\sqrt{\langle \alpha, \alpha \rangle}$，记作 $|\alpha|$。长度为1的向量称为单位向量。
-这样定义的向量长度具有通常的长度性质：
-$$ |k\alpha| = |k||\alpha|; $$
-$$ |\alpha| = 0 \text{ 当且仅当 } \alpha = 0. $$
-对于任一非零向量 $\alpha$，有
-$$ \left| \frac{\alpha}{|\alpha|} \right| = \frac{1}{|\alpha|} |\alpha| = 1, $$
-即 $\frac{\alpha}{|\alpha|}$ 是单位向量。这种对一非零向量除以该向量长度成为单位向量的办法，称为**向量的单位化**。
-
-定理 1.1-1：（Cauchy-Schwarz不等式）向量的内积满足：$|\langle\alpha,\beta\rangle|\leqslant|\alpha|\mid\beta|.$
-	推论：（三角不等式）$|\alpha+\beta|\leqslant|\alpha|+|\beta|.$
-对于向量 $\alpha$, $\beta$, 若 $\langle \alpha, \beta \rangle = 0$, 则称 $\alpha$ 与 $\beta$ **正交**, 记作 $\alpha \perp \beta$.
-
-### 1.1.2 向量组的线性相关性和向量组的秩
-
-给定向量组 $\alpha_1, \cdots, \alpha_s$，如果存在不全为零的数 $k_1, \cdots, k_s$，使得
-$$k_1 \alpha_1 + \cdots + k_s \alpha_s = 0, \tag{1.1-4}$$
-则称向量组 $\alpha_1, \cdots, \alpha_s$ 线性相关。否则，称这个向量组线性无关。换句话说，如果只有当 $k_1 = \cdots = k_s = 0$ 时才使 (1.1-4) 式成立，则向量组 $\alpha_1, \cdots, \alpha_s$ 线性无关。
-
-定理 1.1-2：向量组 $\alpha_1, \cdots, \alpha_s$ ($s \geq 2$) 线性相关的充要条件是其中至少有一个向量能用其余向量线性表出。
-
-
-## 第二章 Jordan标准型介绍
-
 ## 2.1 线性变换的对角矩阵表示
 
 ### 1 线性变换的特征值和特征向量
@@ -157,4 +113,59 @@ $\lambda_1, \lambda_2, \cdots, \lambda_s$ 互异, 则 $\lambda_i$ 为 $A$ 的 $k
 	若 $t_i < k_i$ , 则选择适当的特征向量 $\alpha_i$ , 由 $(2 - 13)$ 式确定Jordan链的长度 $n_i$ , 从而得到 $J_A$ 的结构.
 	上述矩阵等价于如下的方程组 $$ \left\{ \begin{aligned} (A - \lambda_1 I)\alpha_1 &= 0, \\ (A - \lambda_1 I)\beta_2 &= \alpha_1, \\ (A - \lambda_1 I)\beta_3 &= \beta_2, \\ &\vdots \\ (A - \lambda_1 I)\beta_{n_j} &= \beta_{n_j - 1}. \end{aligned} \right. \tag{2-13} $$ 从 $(2 - 13)$ 式求得一组向量 $\{\alpha_1, \beta_2, \cdots, \beta_{n_j}\}$ , 我们称之为Jordan链. 链中的第一个向量 $\alpha_1$ 是特征向量,  $\beta_2, \cdots, \beta_{n_j}$ 称为广义特征向量. 链的长度 $n_j$ 就是 $J_{1j}(\lambda_1)$ 的阶数.  $(2 - 13)$ 式给出一个递归过程, 该过程到线性方程组 $(A - \lambda_1 I)\beta_{n_j + 1} = \beta_{n_j}$ 无解时终止.
 4. 所有Jordan链构成的矩阵 $P$ 就是Jordan标准形的变换矩阵.
+
+## 2.3 最小多项式
+
+一个方阵 $A_{n \times n}$ 的Jordan标准形 $J$ 在和矩阵 $A$ 相似的一切矩阵构成的相似类中，是形式最简单的。 $A$ 和 $J$ 又都具有相似不变性，因此，在讨论关于 $A$ 的一些问题时，常利用 $J$ 的简单形式，先就 $J$ 进行讨论，得到 $A$ 的相应结论，这就是Jordan化方法。
+
+这一节用Jordan化方法先讨论 $A$ 的矩阵多项式的计算问题，由此证明Cayley定理，再给出矩阵 $A$ 的最小多项式及其性质。
+
+### 1 矩阵多项式
+
+**定义 2.8** 设 $A \in F^{n \times n}$ ， $a_i \in F$ ， $g(\lambda) = a_m \lambda^m + a_{m-1} \lambda^{m-1} + \cdots + a_1 \lambda + a_0$ 是一个多项式，则称矩阵 $g(A) = a_m A^m + a_{m-1} A^{m-1} + \cdots + a_1 A + a_0 I$ 为 $A$ 的矩阵多项式。
+
+**定理 2.10** 设 $A \in F^{n \times n}$ ， $g(A)$ 是 $A$ 的矩阵多项式，则有如下结果： 
+1. 若 $\lambda_0$ 是 $A$ 的特征值，则 $g(\lambda_0)$ 是 $g(A)$ 的特征值。 
+2. 如果 $A$ 相似于 $B$ ，即 $P^{-1}AP = B$ ，则 $g(A)$ 相似于 $g(B)$ ，且 $P^{-1}g(A)P = g(B)$ 。
+3. 如果 $A$ 为准对角矩阵，则 $g(A)$ 也是准对角矩阵。而且， 若 $A = \begin{pmatrix} A_1 &&& \\ & A_2 && \\ && \ddots & \\ &&& A_k \end{pmatrix}$ ， $A_i$ 为方子块，则 $g(A) = \begin{pmatrix} g(A_1) &&& \\ & g(A_2) && \\ && \ddots & \\ &&& g(A_k) \end{pmatrix}$ 。
+
+---
+下面, 我们讨论 $g(A)$ 的计算问题, 即已知方阵 $A$ 和多项式 $g(\lambda)$ , 如何计算方阵 $g(A)$ 的问题. 设 $g(\lambda) = a_m \lambda^m + a_{m-1} \lambda^{m-1} + \cdots + a_1 \lambda + a_0$ .
+
+为计算 $g(A)$ ，用Jordan化方法. 设  
+$$A = PJP^{-1}, \quad J = \begin{pmatrix} J_1(\lambda_1) &&& \\ & J_2(\lambda_2) && \\ && \ddots & \\ &&& J_s(\lambda_s) \end{pmatrix},$$
+其中 $J_1(\lambda_1), J_2(\lambda_2), \cdots, J_s(\lambda_s)$ 为 $J$ 的全部Jordan块. 由定理2.10知  
+$$\begin{align*} g(A) &= Pg(J)P^{-1} \\ &= P \begin{pmatrix} g(J_1(\lambda_1)) &&& \\ & g(J_2(\lambda_2)) && \\ && \ddots & \\ &&& g(J_s(\lambda_s)) \end{pmatrix} P^{-1}, \end{align*}$$ 因此计算 $g(A)$ 的问题转化为对Jordan块 $J_i(\lambda_i)$ 计算 $g(J_i(\lambda_i))$ 的问题.
+
+[[矩阵论例子#g(A)分析]] ^3dfa00
+
+### 2 方阵的化零多项式
+
+对 $n$ 阶方阵 $A$ ，若存在多项式 $g(\lambda)$ ，使矩阵 $g(A) = 0$ ，则称 $g(\lambda)$ 为矩阵 $A$ 的**化零多项式**。 
+
+**定理 2.11 (Cayley-Hamilton)** 设 $A \in F^{n \times n}$ ，则方阵 $A$ 的特征多项式就是 $A$ 的化零多项式。
+
+[[矩阵论例子#定理2.11证明]] ^b68863
+
+### 3 最小多项式
+
+对 $A \in F^{n \times n}$ ，Cayley定理指出它有化零多项式，
+
+事实上， $A$ 有很多化零多项式. 若 $A$ 是 $V$ 上线性变换 $T$ 的矩阵，对 $A$ 的化零多项式 $f(\lambda)$ ，相应地用多项式得到线性变换 $f(T)$ 就是零变换. 所以线性变换 $T$ 的化零多项式也是存在的，而且  
+$$\text{线性变换 } f(T) = \mathbf{0} \iff \text{矩阵 } f(A) = 0.$$
+
+---
+**定义 2.9** 设 $T$ 是线性空间 $V$ 上的线性变换， $m_T(\lambda)$ 是一个关于文字 $\lambda$ 的多项式，如果 $m_T(\lambda)$ 满足：
+1.  $m_T(\lambda)$ 的最高次项系数为1， 
+2. $m_T(\lambda)$ 是 $T$ 的一个化零多项式，即 $m_T(T) = \mathbf{0}$ ，
+3.  $m_T(\lambda)$ 是 $T$ 的化零多项式中次数最低的多项式， 
+则称 $m_T(\lambda)$ 是 $T$ 的**最小多项式**。
+
+**定理 2.12**  $T$ 的特征多项式 $f(\lambda)$ 与最小多项式 $m_T(\lambda)$ 有相同的根(重数不计). 即若 $f(\lambda) = |\lambda I - A| = (\lambda - \lambda_1)^{r_1} (\lambda - \lambda_2)^{r_2} \cdots (\lambda - \lambda_s)^{r_s}$ ，则 $m_T(\lambda) = (\lambda - \lambda_1)^{t_1} (\lambda - \lambda_2)^{t_2} \cdots (\lambda - \lambda_s)^{t_s}$ ， $1 \leq t_i \leq r_i$ ， $i = 1, 2, \cdots, s$ .
+
+**定理 2.13** 设变换 $T$ 的特征多项式为  $$f(\lambda) = (\lambda - \lambda_1)^{r_1} (\lambda - \lambda_2)^{r_2} \cdots (\lambda - \lambda_s)^{r_s},$$  又 $T$ 的Jordan标准形中关于特征值 $\lambda_i$ 的Jordan块的最高阶数为 $\bar{n}_i$ ，则 $T$ 的最小多项式  $$m_T(\lambda) = (\lambda - \lambda_1)^{\bar{n}_1} (\lambda - \lambda_2)^{\bar{n}_2} \cdots (\lambda - \lambda_s)^{\bar{n}_s}.$$ (证明没细看)
+
+**定理 2.14** 线性变换 $T$ 可对角化的充分必要条件是 $T$ 的最小多项式 $m_T(\lambda)$ 是一次因子的乘积.
+
+[[最小多项式和jordan标准型]] ^b6e7f8
 
