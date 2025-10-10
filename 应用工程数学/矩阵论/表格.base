@@ -1,0 +1,14 @@
+views:
+  - type: table
+    name: 表格
+    filters:
+      and:
+        - file.folder == "应用工程数学/矩阵论/例子"
+    order:
+      - file.name
+      - tags
+    sort:
+      - property: tags
+        direction: DESC
+      - property: file.name
+        direction: ASC

@@ -8,31 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ed78ece5bc3369d0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "应用工程数学/矩阵论/4 矩阵的广义逆.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "4 矩阵的广义逆"
-            }
-          },
-          {
             "id": "308f8202aa4c6e20",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "应用工程数学/矩阵论/例子/第3章推导＋例子.md",
+                "file": "应用工程数学/矩阵论/0 前言.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "第3章推导＋例子"
+              "title": "0 前言"
             }
           }
         ]
@@ -165,6 +151,20 @@
               "icon": "lucide-list",
               "title": "3 矩阵的分解 的大纲"
             }
+          },
+          {
+            "id": "a50ff25132f0a4d4",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
           }
         ],
         "currentTab": 3
@@ -186,20 +186,27 @@
       "obsidian-regex-pipeline:Regex Rulesets": false
     }
   },
-  "active": "ed78ece5bc3369d0",
+  "active": "308f8202aa4c6e20",
   "lastOpenFiles": [
+    "应用工程数学/矩阵论/例子/可逆矩阵.md",
+    "应用工程数学/矩阵论/0 前言.md",
+    "应用工程数学/矩阵论/例子/第3章推导＋例子.md",
+    "应用工程数学/矩阵论/例子/酉矩阵.md",
+    "应用工程数学/矩阵论/例子/最小多项式和jordan标准型.md",
+    "应用工程数学/矩阵论/例子/Hermite 矩阵.md",
+    "应用工程数学/矩阵论/例子/Schmidt 正交化方法.md",
+    "应用工程数学/矩阵论/表格.base",
+    "应用工程数学/矩阵论/例子/Untitled 1.md",
+    "应用工程数学/矩阵论/例子/Untitled.md",
+    "应用工程数学/矩阵论/1.md",
     "应用工程数学/矩阵论/3 矩阵的分解.md",
     "应用工程数学/矩阵论/4 矩阵的广义逆.md",
-    "应用工程数学/矩阵论/例子/可逆.md",
-    "应用工程数学/矩阵论/例子/第3章推导＋例子.md",
-    "应用工程数学/矩阵论/例子/Hermite 矩阵.md",
-    "应用工程数学/矩阵论/例子/酉矩阵.md",
     "应用工程数学/矩阵论/2 Jordan标准型介绍.md",
-    "应用工程数学/矩阵论/例子/矩阵论例子.md",
     "应用工程数学/矩阵论/疑问.md",
-    "应用工程数学/矩阵论/例子/最小多项式和jordan标准型.md",
-    "应用工程数学/矩阵论/0 前言.md",
-    "应用工程数学/矩阵论/1.md",
+    "应用工程数学/矩阵论/例子/定义了内积的向量空间.md",
+    "应用工程数学/矩阵论/img",
+    "应用工程数学/矩阵论/img/Pasted image 20251010095158.png",
+    "应用工程数学/矩阵论/例子/矩阵论例子.md",
     "应用工程数学/矩阵论/例子",
     "未命名.base",
     "研究生/应用工程数学/矩阵论/未命名.md",
@@ -212,8 +219,6 @@
     "研究生/云计算/yyx~356E0.tmp",
     "研究生/云计算/yyx~182E9.tmp",
     "综述/初稿/综述20250919.docx",
-    "综述/初稿/整合.docx",
-    "综述/初稿/修改1.docx",
     "研究生/云计算/img/Pasted image 20250919203548.png",
     "研究生/云计算/img/Pasted image 20250919203525.png",
     "研究生/云计算/img/Pasted image 20250919200027.png",
@@ -224,16 +229,10 @@
     "综述/文献整理/MARL豆包整理.md",
     "综述/文献整理/文献整理.md",
     "项目/相关论文/第1周/4.强化学习的新挑战：安全和隐私调查/强化学习的新挑战：安全和隐私调查.md",
-    "综述/文献整理/RL豆包整理.md",
-    "疑难/git.md",
-    "项目/相关论文/第2周/4.针对强化学习的自适应奖励中毒攻击/总结.md",
     "综述/文献整理/img/Pasted image 20250917141751.png",
     "综述/文献整理/img/Pasted image 20250916192546.png",
     "综述/文献整理/img/Pasted image 20250916192126.png",
     "综述/文献整理/img/Pasted image 20250916192044.png",
-    "综述/文献整理/框架整理.md",
-    "待做.md",
-    "项目/相关论文/第3周/1.鲁棒强化学习：基础回顾和最新进展/img/Pasted image 20250820151027.png",
     "项目/2025-8-13修改/指标.canvas",
     "项目/记录/攻击.canvas",
     "ML/思维导图/机器学习总览.canvas"
