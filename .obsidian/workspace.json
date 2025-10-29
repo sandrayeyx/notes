@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "应用工程数学/矩阵论/1 线性空间 线性变换.md",
+                "file": "计算系统安全/翻译.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1 线性空间 线性变换"
+              "title": "翻译"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.5
+    "width": 240.5,
+    "collapsed": true
   },
   "right": {
     "id": "fe0a5703ef35d874",
@@ -142,13 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "应用工程数学/矩阵论/3 矩阵的分解.md",
+                "file": "计算系统安全/翻译.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "3 矩阵的分解 的大纲"
+              "title": "翻译 的大纲"
             }
           },
           {
@@ -187,13 +188,18 @@
   },
   "active": "308f8202aa4c6e20",
   "lastOpenFiles": [
+    "计算系统安全/信任之路：在机密 VM 中构建 enclaves.pdf",
+    "计算系统安全/翻译.md",
+    "云计算/翻译.md",
+    "应用工程数学/矩阵论/1 线性空间 线性变换.md",
+    "计算系统安全/信任之路：在机密 VM 中构建 enclaves.pdf.crdownload",
+    "计算系统安全",
+    "新建文件夹",
     "应用工程数学/矩阵论/例子/不变子空间与矩阵化简的关系.md",
     "应用工程数学/矩阵论/例子/第3章推导＋例子.md",
     "应用工程数学/矩阵论/例子/Schmidt 正交化方法.md",
-    "应用工程数学/矩阵论/1 线性空间 线性变换.md",
     "应用工程数学/矩阵论/0 前言.md",
     "应用工程数学/矩阵论/表格.base",
-    "云计算/翻译.md",
     "云计算/论文.pdf",
     "应用工程数学/矩阵论/2 Jordan标准型介绍.md",
     "应用工程数学/矩阵论/例子/行列式.md",
@@ -217,13 +223,7 @@
     "未命名.base",
     "研究生/应用工程数学/矩阵论/未命名.md",
     "研究生/应用工程数学/矩阵论/疑问.md",
-    "研究生/应用工程数学/矩阵论.md",
     "研究生/应用工程数学/矩阵论",
-    "研究生/云计算/翻译.md",
-    "研究生/应用工程数学",
-    "研究生/云计算/yyx~53758.tmp",
-    "研究生/云计算/yyx~356E0.tmp",
-    "研究生/云计算/yyx~182E9.tmp",
     "研究生/云计算/img/Pasted image 20250919203548.png",
     "研究生/云计算/img/Pasted image 20250919203525.png",
     "研究生/云计算/img/Pasted image 20250919200027.png",
