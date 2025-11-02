@@ -47,7 +47,8 @@
               "title": "信任之路：在机密 VM 中构建 enclaves"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -168,13 +169,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算系统安全/gemini.md",
+                "file": "计算系统安全/信任之路：在机密 VM 中构建 enclaves.pdf",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "gemini 的大纲"
+              "title": "信任之路：在机密 VM 中构建 enclaves 的大纲"
             }
           },
           {
@@ -210,34 +211,34 @@
       "obsidian-regex-pipeline:Regex Rulesets": false
     }
   },
-  "active": "308f8202aa4c6e20",
+  "active": "be91a488758fe55b",
   "lastOpenFiles": [
-    "计算系统安全/img/Pasted image 20251029212931.png",
-    "计算系统安全/img/Pasted image 20251029212020.png",
+    "计算系统安全/yyx~CD835.tmp",
+    "计算系统安全/yyx~89DDF.tmp",
     "计算系统安全/翻译.md",
     "计算系统安全/gemini.md",
+    "计算系统安全/信任之路：在机密 VM 中构建 enclaves.pdf",
+    "计算系统安全/yyx~9AA2F.tmp",
+    "计算系统安全/yyx~6B753.tmp",
+    "计算系统安全/~$yyx.pptx",
+    "计算系统安全/yyx~D65D3.tmp",
+    "计算系统安全/yyx~E184A.tmp",
+    "计算系统安全/img/Pasted image 20251029212931.png",
+    "计算系统安全/img/Pasted image 20251029212020.png",
     "计算系统安全/img/Pasted image 20251029202830.png",
     "计算系统安全/img/Pasted image 20251029202000.png",
     "计算系统安全/img/Pasted image 20251029201338.png",
     "计算系统安全/img/Pasted image 20251029200457.png",
     "计算系统安全/img/Pasted image 20251029195944.png",
     "计算系统安全/img/Pasted image 20251029195353.png",
-    "计算系统安全/信任之路：在机密 VM 中构建 enclaves.pdf",
     "计算系统安全/img/Pasted image 20251029170230.png",
     "计算系统安全/img/Pasted image 20251029164350.png",
-    "计算系统安全/img/Pasted image 20251029160013.png",
     "云计算/翻译.md",
-    "计算系统安全/~$yyx.pptx",
     "计算系统安全/yyx~93C81.tmp",
     "计算系统安全/yyx~83FE2.tmp",
     "计算系统安全/yyx~7D37C.tmp",
-    "计算系统安全/yyx.pptx",
-    "计算系统安全/img",
     "纳米技术与应用/未命名.md",
     "应用工程数学/矩阵论/1 线性空间 线性变换.md",
-    "计算系统安全/信任之路：在机密 VM 中构建 enclaves.pdf.crdownload",
-    "计算系统安全",
-    "新建文件夹",
     "应用工程数学/矩阵论/例子/不变子空间与矩阵化简的关系.md",
     "应用工程数学/矩阵论/例子/第3章推导＋例子.md",
     "应用工程数学/矩阵论/例子/Schmidt 正交化方法.md",
