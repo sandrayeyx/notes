@@ -39,12 +39,14 @@
             "id": "be91a488758fe55b",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "计算系统安全/信任之路：在机密 VM 中构建 enclaves.pdf"
+                "file": "纳米技术与应用/未命名.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "信任之路：在机密 VM 中构建 enclaves"
+              "icon": "lucide-file",
+              "title": "未命名"
             }
           }
         ],
@@ -105,7 +107,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.5
+    "width": 240.5,
+    "collapsed": true
   },
   "right": {
     "id": "fe0a5703ef35d874",
@@ -169,13 +172,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算系统安全/信任之路：在机密 VM 中构建 enclaves.pdf",
+                "file": "纳米技术与应用/未命名.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "信任之路：在机密 VM 中构建 enclaves 的大纲"
+              "title": "未命名 的大纲"
             }
           },
           {
@@ -197,7 +200,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 268.5
+    "width": 268.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -213,11 +217,11 @@
   },
   "active": "be91a488758fe55b",
   "lastOpenFiles": [
+    "计算系统安全/信任之路：在机密 VM 中构建 enclaves.pdf",
     "计算系统安全/yyx~CD835.tmp",
     "计算系统安全/yyx~89DDF.tmp",
     "计算系统安全/翻译.md",
     "计算系统安全/gemini.md",
-    "计算系统安全/信任之路：在机密 VM 中构建 enclaves.pdf",
     "计算系统安全/yyx~9AA2F.tmp",
     "计算系统安全/yyx~6B753.tmp",
     "计算系统安全/~$yyx.pptx",
