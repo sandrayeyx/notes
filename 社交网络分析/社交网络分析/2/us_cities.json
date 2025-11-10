@@ -1,0 +1,52 @@
+{
+  "city_0": {
+    "latitude": 46.92171557613585,
+    "longitude": -113.70361124967647,
+    "population": 1114893
+  },
+  "city_1": {
+    "latitude": 25.273329600717542,
+    "longitude": -70.72909639443557,
+    "population": 295882
+  },
+  "city_2": {
+    "latitude": 43.67286938291625,
+    "longitude": -70.07222129623739,
+    "population": 905188
+  },
+  "city_3": {
+    "latitude": 37.23775437404399,
+    "longitude": -94.61087542859077,
+    "population": 173722
+  },
+  "city_4": {
+    "latitude": 26.289114800363663,
+    "longitude": -96.76470217037388,
+    "population": 2380698
+  },
+  "city_5": {
+    "latitude": 35.65216070337868,
+    "longitude": -77.03131585259601,
+    "population": 4330153
+  },
+  "city_6": {
+    "latitude": 45.628615061264036,
+    "longitude": -108.23865729367533,
+    "population": 391525
+  },
+  "city_7": {
+    "latitude": 30.895178642644822,
+    "longitude": -121.68090293768715,
+    "population": 1898934
+  },
+  "city_8": {
+    "latitude": 30.77822859855489,
+    "longitude": -90.04622841172105,
+    "population": 2168757
+  },
+  "city_9": {
+    "latitude": 33.697819645448234,
+    "longitude": -102.66457191270754,
+    "population": 3994507
+  }
+}
