@@ -1,0 +1,26 @@
+//添加白名单检查
+mapping(address => bool) public isTrustedStakingContract;
+
+function migrateStake(address oldStaking, uint256 amount) external {
+    require(isTrustedStakingContract[oldStaking], "Error: Untrusted staking contract");
+    StaxLPStaking(oldStaking).migrateWithdraw(msg.sender, amount);
+    _applyStake(msg.sender, amount);
+}
+
+//余额检查
+function migrateStake(address oldStaking, uint256 amount) external {
+    // 1. 记录迁移前的余额
+    uint256 balanceBefore = stakingToken.balanceOf(address(this));
+    
+    // 2. 执行迁移
+    StaxLPStaking(oldStaking).migrateWithdraw(msg.sender, amount);
+    
+    // 3. 记录迁移后的余额
+    uint256 balanceAfter = stakingToken.balanceOf(address(this));
+    
+    // 4. 验证实际收到的金额是否匹配
+    require(balanceAfter >= balanceBefore + amount, "Error: Fund transfer failed");
+    
+    // 5. 记账
+    _applyStake(msg.sender, amount);
+}
